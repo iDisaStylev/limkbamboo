@@ -1,0 +1,25 @@
+Product2/09e23cc1-eb05-a56d-a992-d7c57661df16 >> Error  
+21-Nov-2023 17:18:29	  Product2/4cb0a4ce-584a-aa48-4254-faba4f690092 >> Error  
+21-Nov-2023 17:18:29	  Product2/6b2934f8-c15c-862f-e96f-645d5821ffb6 >> Error  
+21-Nov-2023 17:18:29	  Product2/9f9123b5-7e68-ec5f-4e0c-cd749097cc30 >> Error  
+21-Nov-2023 17:18:29	  Product2/a577a325-1a10-3dba-eb48-3f3553e90b5f >> Error  
+21-Nov-2023 17:18:29	  Product2/abc05a33-4d95-7426-bfe5-ee8c8fe37330 >> Error  
+21-Nov-2023 17:18:29	  Product2/c5cfd067-b99d-83d7-4f71-011c8754d310 >> Success  
+21-Nov-2023 17:18:29	  Product2/d10b5b63-7773-c103-d355-8e01c85f4f6f >> Error  
+21-Nov-2023 17:18:29	  Product2/dbb3d030-fe9a-c597-59c3-ad5267263d0e >> Error  
+21-Nov-2023 17:18:29	  Product2/e1cb98be-9da4-6743-d87a-dd8f12119008 >> Error  
+21-Nov-2023 17:18:29	  Product2/f7b78fe9-d6d1-21a1-5cef-fce8571996b9 >> Error  
+21-Nov-2023 17:18:29	  Saving File Start  
+21-Nov-2023 17:18:29	  Saving File End >> 136  
+21-Nov-2023 17:18:29	  Job Complete >> Deploy 5m 29s  
+21-Nov-2023 17:18:29	Deploy error:
+21-Nov-2023 17:18:29	Product2/09e23cc1-eb05-a56d-a992-d7c57661df16 -- DataPack >> Orvi 99 10 Pagos -- Error Message -- No match found for vlocity_ins__OverrideDefinition__c.vlocity_ins__OverridingAttributeAssignmentId__c - vlocity_ins__IsOverride__c=false AND vlocity_ins__ObjectId__c=vlocity_ins__ProductChildItem__c/129fcecb-fe50-0d06-93a0-95cd7d002021 AND vlocity_ins__OverrideContext__c=null (System Code)
+21-Nov-2023 17:18:29	Product2/4cb0a4ce-584a-aa48-4254-faba4f690092 -- DataPack >> Orvi 99 15 Pagos -- Error Message -- No match found for vlocity_ins__OverrideDefinition__c.vlocity_ins__OverridingAttributeAssignmentId__c - vlocity_ins__IsOverride__c=false AND vlocity_ins__ObjectId__c=vlocity_ins__ProductChildItem__c/50155a7b-e5c1-6518-5c63-789ee083598a AND vlocity_ins__OverrideContext__c=null (System Code)
+21-Nov-2023 17:18:29	Product2/6b2934f8-c15c-862f-e96f-645d5821ffb6 -- DataPack >> Orvi 99 Todos los pagos Mancomunado -- Error Message -- No match found for vlocity_ins__OverrideDefinition__c.vlocity_ins__OverridingAttributeAssignmentId__c - vlocity_ins__IsOverride__c=false AND vlocity_ins__ObjectId__c=vlocity_ins__ProductChildItem__c/8bcb2490-bc99-eea2-dd3e-59607d6ebe67 AND vlocity_ins__OverrideContext__c=null (System Code)
+21-Nov-2023 17:18:29	Product2/abc05a33-4d95-7426-bfe5-ee8c8fe37330 -- DataPack >> Star Dotal 10 años -- Error Message -- No match found for vlocity_ins__OverrideDefinition__c.vlocity_ins__OverridingAttributeAssignmentId__c - vlocity_ins__IsOverride__c=false AND vlocity_ins__ObjectId__c=vlocity_ins__ProductChildItem__c/befcad21-d1a7-3b7a-401b-97868fefeb85 AND vlocity_ins__OverrideContext__c=null (System Code)
+21-Nov-2023 17:18:29	Product2/9f9123b5-7e68-ec5f-4e0c-cd749097cc30 -- DataPack >> Orvi 99 6 Pagos -- Error Message -- No match found for vlocity_ins__OverrideDefinition__c.vlocity_ins__OverridingAttributeAssignmentId__c - vlocity_ins__IsOverride__c=false AND vlocity_ins__ObjectId__c=vlocity_ins__ProductChildItem__c/0a30be53-0e19-0b03-4da7-3a05de9b1878 AND vlocity_ins__OverrideContext__c=null (System Code)
+21-Nov-2023 17:18:29	Product2/f7b78fe9-d6d1-21a1-5cef-fce8571996b9 -- DataPack >> Star Dotal 5 años -- Error Message -- No match found for vlocity_ins__OverrideDefinition__c.vlocity_ins__OverridingAttributeAssignmentId__c - vlocity_ins__IsOverride__c=false AND vlocity_ins__ObjectId__c=vlocity_ins__ProductChildItem__c/5271d483-f878-d103-23cb-62bfbf397c08 AND vlocity_ins__OverrideContext__c=null (System Code)
+21-Nov-2023 17:18:29	Product2/a577a325-1a10-3dba-eb48-3f3553e90b5f -- DataPack >> Star Dotal 15 años -- Error Message -- No match found for vlocity_ins__OverrideDefinition__c.vlocity_ins__OverridingAttributeAssignmentId__c - vlocity_ins__IsOverride__c=false AND vlocity_ins__ObjectId__c=vlocity_ins__ProductChildItem__c/8d3ce25b-3a97-a483-4de1-d3a4155dd478 AND vlocity_ins__OverrideContext__c=null (System Code)
+21-Nov-2023 17:18:29	Product2/d10b5b63-7773-c103-d355-8e01c85f4f6f -- DataPack >> Star Dotal 20 años -- Error Message -- No match found for vlocity_ins__OverrideDefinition__c.vlocity_ins__OverridingAttributeAssignmentId__c - vlocity_ins__IsOverride__c=false AND vlocity_ins__ObjectId__c=vlocity_ins__ProductChildItem__c/535c4c0f-546c-1589-5fa4-d5061732050b AND vlocity_ins__OverrideContext__c=null (System Code)
+21-Nov-2023 17:18:29	Product2/dbb3d030-fe9a-c597-59c3-ad5267263d0e -- DataPack >> Orvi 99 20 Pagos Mancomunado -- Error Message -- No match found for vlocity_ins__OverrideDefinition__c.vlocity_ins__OverridingAttributeAssignmentId__c - vlocity_ins__IsOverride__c=false AND vlocity_ins__ObjectId__c=vlocity_ins__ProductChildItem__c/7d0648a0-b879-18b8-16af-a8f1838c83f6 AND vlocity_ins__OverrideContext__c=null (System Code)
+21-Nov-2023 17:18:29	Product2/e1cb98be-9da4-6743-d87a-dd8f12119008 -- DataPack >> Orvi 99 Todos los pagos Mancomunado -- Error Message -- No match found for vlocity_ins__OverrideDefinition__c.vlocity_ins__OverridingAttributeAssignmentId__c - vlocity_ins__IsOverride__c=false AND vlocity_ins__ObjectId__c=vlocity_ins__ProductChildIt
