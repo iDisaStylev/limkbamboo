@@ -1,0 +1,39 @@
+force-app/main/default/classes
+  SALES_XMLWriter.cls
+
+vlocity
+vlocity/OmniScript/OmniScripts_SalesEApplicationLifeCoverages_Spanish-Mexico
+  OmniScripts_SalesEApplicationLifeCoverages_Spanish-Mexico_DataPack.json
+  OmniScripts_SalesEApplicationLifeCoverages_Spanish-Mexico_Element_PDF.json
+  OmniScripts_SalesEApplicationLifeCoverages_Spanish-Mexico_Element_PPRBusinessType.json
+  OmniScripts_SalesEApplicationLifeCoverages_Spanish-Mexico_Element_PPRDescription.json
+  OmniScripts_SalesEApplicationLifeCoverages_Spanish-Mexico_Element_PPRMaternalLastName.json
+  OmniScripts_SalesEApplicationLifeCoverages_Spanish-Mexico_Element_PPRName.json
+  OmniScripts_SalesEApplicationLifeCoverages_Spanish-Mexico_Element_PPRPaternalLastName.json
+  OmniScripts_SalesEApplicationLifeCoverages_Spanish-Mexico_Element_PPRPhysicalWorkplace.json
+  OmniScripts_SalesEApplicationLifeCoverages_Spanish-Mexico_Element_TestApplicacion.json
+  README.md
+
+Post deployment
+## M236-16220
+Pasos Post-Deployment - Caracteres Corruptos
+1. Abrir el Workbench
+2. Utilizamos el siguiente query en la sección Enter or modify a SOQL query below:
+   SELECT Id,Name,Sales_CodProfesion__c,SALES_Name__c FROM Sales_Occupation__c WHERE Name IN ('13', '101', '102', '103', '104', '191', '47')
+   y damos clic en el botón Query
+3. Visualizamos los registros con los caracteres corruptos
+4. Después de la visualización nos dirigimos a data y seleccionar Update
+5. Seleccionar el objeto "Sales_Occupation__c", después selecionar From File y buscar el archivo que tiene por nombre "Update Sales_Occupation__c (PROD - Ñ).csv" y dar clic en Next
+6. Seleccionar Map Fields
+7. Seleccionar Confirm Update
+8. Posteriormente seleccionar queries y SOQL Query
+9. Utilizamos el siguiente query en la sección Enter or modify a SOQL query below:
+   SELECT Id,Name,Sales_CodProfesion__c,SALES_Name__c FROM Sales_Occupation__c WHERE Name IN ('13', '101', '102', '103', '104', '191', '47')
+   y damos clic en el botón Query
+10. Se visualizarán los cambios realizados anteriormente.
+
+## CAMPOS PPR
+1. Abrir el salesforce workbench
+2. Pegar el siguiente query "SELECT Id,Name,SALES_Field__c FROM SALES_Integration_mapping__c WHERE Name = '1.11.1.8.9.8'" y ejecutar
+3. Hacer un update al resultado cambiando el valor del campo de "SALES_Field__c" de "SALES_PPR_COV__c" a "SALES_Priority_PPR__c"
+4. Guardar los cambios.
